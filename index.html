@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PERTAMA</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-stumbleupon img-logo"></i>
+            <h1 class="logo-title">CNKZ</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:rakajevieza@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hallo Nama Saya Raka</p>
+            <p class="description">Saya influencer malang</p>
+            <img src="/assets/aanfix.png" alt="foto pertama" class="img-foto"/>
+        </div>
+    </div>
+    <div class="paralax">
+        <div class="tentang">
+            <p class="title">Hallo Nama Saya Raka</p>
+            <p class="description">Saya influencer malang</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <i class="fa-brands fa-youtube icons"></i>
+                    <p class="card-title">Saya Suka Ngopi</p>
+                    <p class="card-description">Ngopi adalah liburan pikiran</p>
+                </div>
+                <div class="card-item">
+                    <i class="fa-brands fa-tiktok icons"></i>
+                    <p class="card-title">Saya Suka Ngopi</p>
+                    <p class="card-description">Ngopi adalah liburan pikiran</p>
+                </div>
+                <div class="card-item">
+                    <i class="fa-brands fa-google icons"></i>
+                    <p class="card-title">Saya Suka Ngopi</p>
+                    <p class="card-description">Ngopi adalah liburan pikiran</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Raka Jevieza Website 2022</p>
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/raka_jevieza"
+        }
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+62867463523"
+        }
+    </script>
+</body>
+</html>
